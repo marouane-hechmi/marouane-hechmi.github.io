@@ -1,0 +1,62 @@
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-flow: row wrap;
+  
+  width: 100%;
+  height: 100%;
+
+  
+} 
+.title {
+  height: 35%;
+  display: flex;
+  align-items: flex-end;
+}
+.findout {
+  height: 60%;
+  width: 60%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.title h1 {
+  font-size: 20px;
+ color: white;
+ 
+
+}
+.mycontainer {
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+  
+}
+  
+#bt {
+  width: 130px;
+  border-radius: 60px;
+  border: none;
+  font-size: 10px;
+  text-align: center;
+  padding: 10px 15px;
+  background-color:rgba(255, 51, 0, 0.959);
+  display: flex;
+  align-items: center;
+ 
+
+}
